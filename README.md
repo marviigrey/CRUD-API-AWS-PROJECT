@@ -2,7 +2,7 @@ Welcome to another AWS project. In this project, I will be creating a simple Cre
 
 
 DynamoDB: is a fully managed NoSQL database service that provides fast and predictable performance with seamless 
-scalability. DynamoDB lets you offload the administrative burdens of operating and scaling a distributed database so
+scalability. DynamoDB lifts off the administrative burdens of operating and scaling a distributed database so
 that you don't have to worry about hardware provisioning, setup, configuration, replication, software patching, 
 or cluster scaling.
 
@@ -11,7 +11,7 @@ code only when needed and scales automatically, from a few requests per day to t
 
 API-GATEWAY: a fully managed service that makes it easy for developers to publish, maintain, monitor, secure, and operate APIs at any scale.
 
-Cloud9: he AWS Cloud9 IDE offers a rich code-editing experience with support for several programming languages and runtime debuggers, and a built-in terminal. It contains a collection of tools that you use to code, build, run, test, and debug software, and helps you release software to the cloud.
+Cloud9: The AWS Cloud9 IDE offers a rich code-editing experience with support for several programming languages and runtime debuggers, and a built-in terminal. It contains a collection of tools that you use to code, build, run, test, and debug software, and helps you release software to the cloud.
 
 It's a simple project where we create a dynamo DB table and have our client/user send HTTP request via API-GW and the gateway routes the request to our lambda function where our lambda function interacts with our 
 DynamoDB table and returns a response to our API-GW which then returns the response to our Client or User.
